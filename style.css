@@ -5,7 +5,7 @@ body{
   background-color: purple;
 }
 .ghostText{
-
+    margin-top: 100px;
    overflow: hidden;
   width: 419px;
   height: 366px;
@@ -19,10 +19,9 @@ margin-left: 1021px;
 
 }
 .titelViewTwo{
-  z-index: 1px;
   position:  absolute;
   margin-left:600px;
-  margin-top:100px;
+  margin-top:200px;
   height: 68px;
   font-family: OpenSans;
   font-size: 52px;
