@@ -33,3 +33,21 @@ margin-left: 1021px;
 .mainView{
   height: 3260px;
 }
+.plaatjeWoud{
+  margin-top: 75px;
+  background-color: pink;
+  width: 564px;
+ height: 605px;
+ border-radius: 7px;
+ box-shadow: 4px 4px 14px 0 rgba(0, 0, 0, 0.25);
+ z-index: 1;
+ margin-left: 138px;
+}
+.rectangle1{
+  width: 564px;
+ height: 605px;
+ border: solid 1px #979797;
+ background-color: #7c92a0;
+ z-index: -1;
+position: absolute;
+}
