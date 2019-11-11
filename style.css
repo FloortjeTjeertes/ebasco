@@ -4,3 +4,13 @@ body{
 .navbar{
   background-color: purple;
 }
+.ghostText{
+  width: 419px;
+  height: 84px;
+  font-family: OpenSans;
+  font-size: 282px;
+  font-weight: bold;
+  line-height: 0.24;
+  letter-spacing: -16.52px;
+  color: #f6f6f6;
+}
