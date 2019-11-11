@@ -5,12 +5,31 @@ body{
   background-color: purple;
 }
 .ghostText{
+
+   overflow: hidden;
   width: 419px;
-  height: 84px;
+  height: 366px;
   font-family: OpenSans;
   font-size: 282px;
   font-weight: bold;
   line-height: 0.24;
   letter-spacing: -16.52px;
   color: #f6f6f6;
+margin-left: 1021px;
+
+}
+.titelViewTwo{
+  height: 68px;
+  font-family: OpenSans;
+  font-size: 52px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: -3.05px;
+  text-align: center;
+  color: var(--black);
+}
+.mainView{
+  height: 3260px;
 }
