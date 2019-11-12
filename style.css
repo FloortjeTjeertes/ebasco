@@ -111,3 +111,15 @@ line-height: 1.69;
 letter-spacing: -0.94px;
 color: var(--black);
 }
+.titledrie{
+  width: 551px;
+   height: 68px;
+   font-family: OpenSans;
+   font-size: 32px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 2.13;
+   letter-spacing: -1.87px;
+   color: var(--black);
+}
