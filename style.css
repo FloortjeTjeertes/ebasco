@@ -1,6 +1,80 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+body{
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
+
+.image1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12rem;
+  width: 50%;
+  border-radius: 7px;
+}
+
+.lorem{
+  width: 365px;
+  height: 136px;
+  font-size: 52px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: -3.05px;
+  color: #081008;
+  display: block;
+  margin-left: 8rem;
+  margin-right: auto;
+  padding-top: 15rem;
+}
+
+.ipsum{
+  width: 539px;
+  height: 54px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: -0.94px;
+  color: var(--black);
+  display: block;
+  margin-left: 8rem;
+  margin-right: auto;
+  padding-top: 10rem;
+}
+
+.image2{
+  display: block;
+  margin-left: 8rem;
+  margin-right: auto;
+}
+
+
+
+.grid_row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 7rem;
+  background-color: #3e563e;
+  poistion: fixed;
+  height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar{
   background-color: purple;
 }
@@ -111,15 +185,23 @@ line-height: 1.69;
 letter-spacing: -0.94px;
 color: var(--black);
 }
-.titledrie{
-  width: 551px;
-   height: 68px;
-   font-family: OpenSans;
-   font-size: 32px;
-   font-weight: bold;
-   font-stretch: normal;
-   font-style: normal;
-   line-height: 2.13;
-   letter-spacing: -1.87px;
-   color: var(--black);
+.grijsTwee{
+  margin-left: 243px;
+  margin-top: 253px;
+  width: 600px;
+  height: 422px;
+  border: solid 1px #979797;
+  background-color: #7c92a0;
+  z-index: -1;
+ position: absolute;
+}
+.plaatjeBerg{
+  margin-top: 176px;
+  background-color: pink;
+  width: 568px;
+   height: 422px;
+   border-radius: 7px;
+   box-shadow: 4px 4px 14px 0 rgba(0, 0, 0, 0.25);
+   z-index: 1;
+
 }
